@@ -33,7 +33,7 @@ You can access the datasheet for GPIO Expander [here](datasheets/AW9523_GPIO_exp
 ![RGB LED Ring](images/fan.png)
 
 ## Power Button
-![RGB LED Ring](images/power_button.png)
+![RGB LED Ring](images/power-button.png)
 
 ## Security
 ![RGB LED Ring](images/security.png)
