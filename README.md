@@ -19,11 +19,25 @@ You can access the datasheet for GPIO Expander [here](datasheets/AW9523_GPIO_exp
 ### Speakers
 ### Line Out
 ### Microphones
+
 ## Temperature sensor
+![RGB LED Ring](images/temperature-sensor.png)
+
 ## Light Sensor
+![RGB LED Ring](images/light-sensor.png)
+
 ## EEPROM
+![RGB LED Ring](images/eeprom.png)
+
 ## Fan
+![RGB LED Ring](images/fan.png)
+
 ## Power Button
+![RGB LED Ring](images/power_button.png)
+
 ## Security
+![RGB LED Ring](images/security.png)
+
 ## Experimental SDR
+![RGB LED Ring](images/sdr.png)
 
