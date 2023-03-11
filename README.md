@@ -7,6 +7,8 @@ link to datasheet
 pins
 ![LCD schematic](images/lcd.png)
 ## Keypad
+![LCD schematic](images/lcd.png)
+[datasheet](datasheets/AW9523_GPIO_expander.pdf)
 ## RGB LED Ring
 ## Audio
 ### Speakers
