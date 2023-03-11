@@ -7,7 +7,7 @@ link to datasheet
 pins
 ![LCD schematic](images/lcd.png)
 ## Keypad
-![LCD schematic](images/lcd.png)
+![LCD schematic](images/keypad.png)
 
 You can access the datasheet for GPIO Expander [here](datasheets/AW9523_GPIO_expander.pdf)
 
