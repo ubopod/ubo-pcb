@@ -1,4 +1,4 @@
-# ubo-pcb
+# Ubo PCBs
 This repo contains top and side PCB schematic and layout as well as documentation for each PCB function 
 
 This repo contains the schematic, layout, design overview and documentations for Ubo Top PCB / Shield. The schematics and layout files are made in Eagle CAD and we plan to add KiCAD version as well.
