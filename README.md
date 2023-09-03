@@ -10,11 +10,16 @@ The main objective in designing Ubo was centred around improving developer and e
 
 In the following section, we discuss how each sub-system was chosen to enhance user and developer experience as well as technical details of implementation.
 
+## RASPBERRY PI HEADER
+
+![RPi_Header](images/rpi-header.png)
+
 ## LCD
 back light
 link to datasheet
 pins
 ![LCD schematic](images/lcd.png)
+
 ## Keypad
 ![LCD schematic](images/keypad.png)
 
