@@ -15,9 +15,9 @@ In the following section, we discuss how each sub-system was chosen to enhance u
 ![RPi_Header](images/rpi-header.png)
 
 ## LCD
-back light
-link to datasheet
-pins
+back light is connected to GPIO26
+TODO: link to datasheet
+
 ![LCD schematic](images/lcd.png)
 
 ## Keypad
