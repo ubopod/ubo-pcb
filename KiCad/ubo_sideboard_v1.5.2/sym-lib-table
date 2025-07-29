@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Uno_side_v1.5.2_newFPC-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Uno_side_v1.5.2_newFPC-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ubo")(type "KiCad")(uri "/Users/martin/Documents/KiCAD/9.0/symbols/ubo.kicad_sym")(options "")(descr ""))
+  (lib (name "melonHD_module")(type "KiCad")(uri "/Users/martin/Documents/ubo-repos/melonHD/KiCAD/SMT Module Library/melonHD_module.kicad_sym")(options "")(descr ""))
+)

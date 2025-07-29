@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Uno_side_v1.5.2_newFPC")(type "KiCad")(uri "$(KIPRJMOD)/Uno_side_v1.5.2_newFPC.pretty")(options "")(descr "")(disabled))
+  (lib (name "ubo")(type "KiCad")(uri "/Users/martin/Documents/KiCAD/9.0/footprints/ubo.pretty")(options "")(descr ""))
+  (lib (name "SMT Module Library")(type "KiCad")(uri "/Users/martin/Documents/ubo-repos/melonHD/KiCAD/SMT Module Library")(options "")(descr ""))
+)
