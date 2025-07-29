@@ -5,8 +5,8 @@ populated on the PCB since Pi 5 does not have an audio jack.
 
 <table>
   <tr>
-    <td><img src="./images/3d-image.png" alt="Description 1" width="300"></td>
-    <td><img src="./images/IMG_1596.jpg" alt="Description 2" width="300"></td>
+    <td><img src="./images/3d-image.png" alt="Side board 3D image" width="300"></td>
+    <td><img src="./images/IMG_1596.jpg" alt="Side board physical board v.1.5.0" width="300"></td>
   </tr>
 </table>
 
@@ -30,7 +30,12 @@ populated on the PCB since Pi 5 does not have an audio jack.
  
 ## Layout
 
+<img src="./images/layout.png" alt="PCB Layout" width="300">
+
 ## Schematic
+
+<img src="./images/schematic.png" alt="PCB Schematic" width="300">
+
 
 TODO:
 - Add BOM
