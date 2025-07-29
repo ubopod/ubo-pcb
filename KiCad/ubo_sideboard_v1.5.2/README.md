@@ -10,6 +10,10 @@ populated on the PCB since Pi 5 does not have an audio jack.
   </tr>
 </table>
 
+This design is used in [Ubo Pod](https://getubo.com) with a custom enclosure to arrange all the ports on the back:
+
+<img src="./images/pi5-top-detached-2.JPG" alt="Side board 3D image" width="300">
+
 ## Features
 - Mini HDMI to full HDMI conversion
 - MicroSD card reader extender (brings the reader to the back)
