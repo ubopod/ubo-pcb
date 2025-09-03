@@ -17,3 +17,12 @@ The following images for the V1 of this adapter board.
     <td><img src="./images/v1-bottom.jpg" alt="M.2 M-key to AE-key Adapter Bottom View" height="300"></td>
   </tr>
 </table>
+
+This design is used in [Ubo Pod](https://getubo.com) with a custom enclosure and quick access cover to reach NVMe drive or Google Coral accelerator. 
+
+<table>
+  <tr>
+    <td><img src="./images/ubo-top-view.jpg" alt="Ubo Pod top view" height="300"></td>
+    <td><img src="./images/coral-inside-enclosure.jpg" alt="view showing google coral accelerator inside Ubo Pod" height="300"></td>
+  </tr>
+</table>
