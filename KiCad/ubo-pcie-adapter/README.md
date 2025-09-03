@@ -2,6 +2,10 @@
 
 This board adds M.2 M-key connector to Raspberry Pi 5 and is compatible with Ubo Pod enclosure. You can use this to add NVMe drives to your Ubo Pod for faster and more reliable performance.
 
+The design was inspired and enabled by George Smart – M1GEO design who reversed engineering PCIe connections of Raspberry Pi 5 before official documentations were released:
+
+https://github.com/m1geo/Pi5_PCIe
+
 <table>
   <tr>
     <td><img src="./images/3d-model-top.png" alt="M.2 M-key PCIe Adapter Top View" height="300"></td>
