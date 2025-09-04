@@ -1,5 +1,5 @@
 # Ubo PCBs
-This repo contains Top and Side PCB schematics and layouts as well as documentation for each PCB function. We will be adding schematics and layouts of other newly designed PCBs here as well. The schematics and layout files are made in Eagle CAD and we plan to add KiCAD version as well.
+This repo contains PCB schematics and layouts as well as documentation for PCBs used in building Ubo pod including top HAT designs, sideboard, PCIe adapters, etc. We will be adding schematics and layouts of other newly designed PCBs here as well. The schematics and layout files are made in Eagle CAD and KiCAD. Some new designs will be done in Altium but will be also exported to KiCAD.
 
 ## Top PCB Overview
 
