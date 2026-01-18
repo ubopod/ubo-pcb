@@ -44,9 +44,9 @@ a breeze.
 
 <table>
   <tr>
-    <td><img src="./images/mini560.png" alt="Ubo HAB Top View" height="300"></td>
-    <td><img src="./images/long-usb-c-module.png" alt="Ubo HAB Top View" height="300"></td>
-    <td><img src="./images/short-usb-c-module" alt="Ubo HAB Bottom View" height="300"></td>
+    <td><img src="./images/mini560.jpg" alt="Ubo HAB Top View" height="300"></td>
+    <td><img src="./images/long-usb-c-module.jpg" alt="Ubo HAB Top View" height="300"></td>
+    <td><img src="./images/short-usb-c-module.jpg" alt="Ubo HAB Bottom View" height="300"></td>
   </tr>
 </table>
 
