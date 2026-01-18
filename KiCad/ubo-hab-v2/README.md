@@ -38,9 +38,8 @@ Power modules can be bought from Amazon or Aliexpress. The 3.3V and 5V modules u
 MINI560 modules and can provide up to 5A of output current. They also have castellated pads that made DIY soldering
 a breeze. 
 
-+ USB-C PD 12V module on Amazon
-+ Mini360 5V step-down converter module on Amazon
-+ Mini360 3.3V step-down converter module on Amazon
++ USB-C PD 12V module on Amazon ([long format](https://www.amazon.com/dp/B09P8HGL9Y?th=1), [short format](https://www.amazon.com/dp/B0C7JTS26B?th=1))
++ Mini360 5V/3.3V step-down converter module on [Amazon](https://www.amazon.com/UMLIFE-mini560-Converter5A-Adjustable-Regulator/dp/B098J269QB?th=1)
 
 <table>
   <tr>
