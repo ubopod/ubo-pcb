@@ -1,6 +1,6 @@
 # Ubo HAB - PCIe/USB-C/POE+ adapter board for Raspberry Pi 5
 
-This is a update to [Ubo PCIe HAB v1](https://github.com/ubopod/ubo-pcb/tree/main/KiCad/ubo-pcie-adapter) with several design enhancement and features:
+This is a update to [Ubo PCIe HAB v1](https://github.com/ubopod/ubo-pcb/tree/main/boards/ubo-pcie-adapter) with several design enhancement and features:
 
 <table>
   <tr>

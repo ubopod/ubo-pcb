@@ -26,7 +26,7 @@ This design is used in [Ubo Pod](https://getubo.com) with a custom enclosure and
 
 <table>
   <tr>
-    <td><img src="../nvme_bm_to_e/images/ubo-top-view.jpg" alt="Ubo Pod top view" height="300"></td>
-    <td><img src="../nvme_bm_to_e/images/coral-inside-enclosure.jpg" alt="view showing google coral accelerator inside Ubo Pod" height="300"></td>
+    <td><img src="../m2-mkey-to-aekey/images/ubo-top-view.jpg" alt="Ubo Pod top view" height="300"></td>
+    <td><img src="../m2-mkey-to-aekey/images/coral-inside-enclosure.jpg" alt="view showing google coral accelerator inside Ubo Pod" height="300"></td>
   </tr>
 </table>
