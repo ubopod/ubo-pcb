@@ -16,5 +16,4 @@ schematic images. The v1.4 Eagle design predates the KiCad port and is retained 
 
 > **Heads-up:** the v1.5.2 KiCad project's library tables reference absolute paths on the
 > author's machine and name libraries that are not in this folder, so it will not open cleanly
-> elsewhere without fixing `fp-lib-table` and `sym-lib-table`. See
-> [Known limitations](../../README.md#known-limitations).
+> elsewhere without fixing `fp-lib-table` and `sym-lib-table`.

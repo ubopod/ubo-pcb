@@ -1,9 +1,44 @@
 # Ubo PCBs
 
-Open hardware design files for the printed circuit boards used in the [Ubo Pod](https://getubo.com)
-and its accessories — the main Raspberry Pi HAT, the side connector board, PCIe/M.2 adapters, a
-flex cable, and an NFC board. Sources are a mix of **Eagle CAD** and **KiCad**; newer designs are
-KiCad. Everything here is licensed under [GPL-3.0](LICENSE).
+<p align="center">
+  <img src="boards/m2-mkey-to-aekey/images/ubo-top-view.jpg" alt="Ubo Pod" width="620">
+</p>
+
+Open hardware design files for the printed circuit boards in the [Ubo Pod](https://getubo.com)
+and its accessories — the main Raspberry Pi HAT, the side connector board, PCIe and M.2
+adapters, a flex cable, and an NFC board. Sources are a mix of **Eagle CAD** and **KiCad**;
+newer designs are KiCad.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="boards/ubo-sideboard/v1.5.2-kicad/images/3d-image.png" alt="Ubo Sideboard" width="260"><br>
+      <sub><b><a href="boards/ubo-sideboard/">Sideboard</a></b><br>ports to the back panel</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="boards/ubo-hab-v2/images/top.png" alt="Ubo HAB v2" width="260"><br>
+      <sub><b><a href="boards/ubo-hab-v2/">HAB v2</a></b><br>PCIe, USB-C PD and PoE+</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="boards/ubo-pcie-adapter/images/3d-model-top.png" alt="Ubo PCIe adapter" width="260"><br>
+      <sub><b><a href="boards/ubo-pcie-adapter/">PCIe adapter</a></b><br>M.2 M-key for the Pi 5</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="boards/m2-mkey-to-aekey/images/3D-top.png" alt="M.2 M-key to A/E-key adapter" width="150"><br>
+      <sub><b><a href="boards/m2-mkey-to-aekey/">M.2 M-key to A/E-key</a></b><br>runs a Google Coral</sub>
+    </td>
+    <td align="center">
+      <img src="boards/pcie-fpc-s-shaped/images/top.png" alt="S-shaped PCIe FPC" width="260"><br>
+      <sub><b><a href="boards/pcie-fpc-s-shaped/">S-shaped PCIe FPC</a></b><br>2-layer flex cable</sub>
+    </td>
+    <td align="center">
+      <img src="boards/ubo-sideboard/v1.5.2-kicad/images/IMG_1596.jpg" alt="Assembled sideboard" width="260"><br>
+      <sub><b>As fabricated</b><br>a populated sideboard</sub>
+    </td>
+  </tr>
+</table>
 
 ## Boards
 
@@ -61,46 +96,24 @@ Not every board has every subdirectory — they exist where there is something t
 - **Eagle designs** (`.sch` / `.brd`) — authored in Eagle CAD 9.6.2. KiCad can also import them
   via *File → Import → Non-KiCad Project*.
 
-## Known limitations
+## License
 
-These are real gaps in the repository as it stands. They are documented rather than hidden:
+Copyright © Ubo Pod.
 
-- **The sideboard v1.5.2 KiCad project will not open cleanly on another machine.** Its
-  `fp-lib-table` and `sym-lib-table` point at absolute paths under
-  `/Users/martin/Documents/KiCAD/9.0/` and at a separate `melonHD` repository, *and* they name
-  libraries (`Uno_side_v1.5.2_newFPC.pretty`, `Uno_side_v1.5.2_newFPC-eagle-import.kicad_sym`)
-  that do not match the files actually in the folder.
-- **HAB v1 and v2 reference a `libs/` directory that was never committed**
-  (`${KIPRJMOD}/libs/Mini360_step_down_converter/…`, `${KIPRJMOD}/libs/Wurth_687316124422/…`).
-  The 3D models for those parts will be missing when the boards are opened.
-- **Several projects reference 3D models by absolute path** under
-  `/Users/martin/Documents/KiCAD/9.0/3dmodels/`, plus one inherited from the upstream m1geo
-  design under `/home/paulr/`. Where a model file is included in the repo it sits in the board's
-  own directory and resolves correctly.
-- **There are no fabrication outputs in this repository** — no gerbers, drill files, BOMs, or
-  pick-and-place data. Generate them from the source projects.
-- **`boards/ubo-top-hat/mechanical/PCB_top_3D_v9.zip` is 23 MB**, which is most of why the git
-  history is large. It is a candidate for Git LFS; history has deliberately not been rewritten.
+These designs are licensed under the **CERN Open Hardware Licence Version 2 – Strongly
+Reciprocal** (`CERN-OHL-S-2.0`). The full text is in [LICENSE](LICENSE).
 
-## Moved paths
+In plain terms:
 
-The repository was reorganized from a per-tool layout into the per-board layout above. If you
-have an old link, here is where it went:
+- **You can** use, study, modify, manufacture, and sell these boards, commercially or not.
+- **If you distribute a modified design**, you have to release your modified source under this
+  same licence, so the next person gets what you got.
+- **If you sell or give away a product** made from these designs, you have to tell the recipient
+  where to obtain the source for it.
+- **There is no warranty.** These are hobbyist and small-batch designs; verify them yourself
+  before committing to a fabrication run.
 
-| Old path | New path |
-|---|---|
-| `eagle/top_pcb/` | `boards/ubo-top-hat/eagle/` |
-| `images/`, `datasheets/` | `boards/ubo-top-hat/images/`, `boards/ubo-top-hat/datasheets/` |
-| `schematics/Ubo_v1.6.1_schematic_full_SKU.pdf` | `boards/ubo-top-hat/docs/` |
-| `top_pcb_dimensions.dxf`, `PCB_top_3D v9.zip` | `boards/ubo-top-hat/mechanical/` |
-| `eagle/side_pcb/` | `boards/ubo-sideboard/v1.4-eagle/` |
-| `schematics/Ubo_side_v1.4_schematic.pdf` | `boards/ubo-sideboard/v1.4-eagle/` |
-| `KiCad/ubo_sideboard_v1.5.2/` | `boards/ubo-sideboard/v1.5.2-kicad/` |
-| `KiCad/nvme_bm_to_e/` | `boards/m2-mkey-to-aekey/` |
-| `KiCad/s-shaped-2layer-PCIe-FPC/` | `boards/pcie-fpc-s-shaped/` |
-| `KiCad/ubo-pcie-adapter/` | `boards/ubo-pcie-adapter/` |
-| `KiCad/ubo-hab-v2/` | `boards/ubo-hab-v2/` |
-| `KiCad/ubo-nfc-hat/` | `boards/ubo-nfc-hat/` |
+That summary is for orientation only — [LICENSE](LICENSE) is the document that actually governs.
 
-The Ubo Top HAT documentation that used to be this file now lives at
-[`boards/ubo-top-hat/README.md`](boards/ubo-top-hat/README.md).
+To reuse a board here, keep the copyright and licence notices in the design files, and note your
+own changes.
